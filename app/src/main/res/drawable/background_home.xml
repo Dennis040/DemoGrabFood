@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Hình dạng chính với gradient -->
+    <item
+        android:right="150dp"
+        android:top="0dp"
+        android:bottom="150dp"
+        android:left="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffd2cb" /> <!-- Màu nền -->
+            <corners android:radius="50dp" /> <!-- Góc bo tròn -->
+        </shape>
+    </item>
+
+    <!-- Hình dạng điểm nhấn màu tại góc trái -->
+    <item
+        android:right="150dp"
+        android:top="150dp"
+        android:bottom="150dp"
+        android:left="150dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#E91E63" /> <!-- Màu điểm nhấn -->
+            <corners android:topLeftRadius="400dp"
+                android:bottomRightRadius="50dp"/>
+        </shape>
+    </item>
+
+</layer-list>
